@@ -1,0 +1,30 @@
+.chess-board { 
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.chess-board th + th { 
+    border-bottom: 1px solid #000; 
+}
+.chess-board th:first-child,.chess-board td:last-child { 
+    border-right: 1px solid #000; 
+}
+.chess-board tr:last-child td { 
+    border-bottom: 1px solid; 
+}
+.chess-board th:empty { 
+    border: none; 
+}
+.chess-board td { 
+    width: 1.5em;
+    height: 1.5em; 
+    text-align: center; 
+    text-shadow: #aaa;
+    font-size: 32px; 
+    line-height: 0;
+}
+.chess-board .light { 
+    background: #eee; 
+}
+.chess-board .dark { 
+    background: #aaa; 
+}
